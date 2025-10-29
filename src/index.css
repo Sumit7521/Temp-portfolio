@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.text-stroke {
+  -webkit-text-stroke: 0.5px white;
+}
+@font-face {
+  font-family: "Brut Grotesque";
+  src: url("/fonts/Brut_Grotesque_WEB-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Brut Grotesque";
+  src: url("/fonts/Brut_Grotesque_WEB-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+/* Hide scrollbar */
+.Scroller::-webkit-scrollbar {
+  display: none;
+}
+.Scroller {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
